@@ -1,0 +1,105 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tm_msgs: 1.1.1 (/home/isci/ros2_ws/install/tm_msgs/share/tm_msgs/cmake)
+-- Found tm_kinematics: 0.1.0 (/home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isci/ros2_ws/build/robot_control
+[35m[1mScanning dependencies of target gazebo_control[0m
+[35m[1mScanning dependencies of target gazebo_controller[0m
+[35m[1mScanning dependencies of target pub_tool0_state[0m
+[35m[1mScanning dependencies of target interface[0m
+[35m[1mScanning dependencies of target joint2cart[0m
+[35m[1mScanning dependencies of target sim_arm_controller[0m
+[35m[1mScanning dependencies of target polish_controller[0m
+[  7%] [32mBuilding CXX object CMakeFiles/pub_tool0_state.dir/src/pub_tool0_state.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/interface.dir/src/interface.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/gazebo_control.dir/src/gazebo_control.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/gazebo_controller.dir/src/gazebo_controller.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/joint2cart.dir/src/joint2cart.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/polish_controller.dir/src/polish_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sim_arm_controller.dir/src/sim_arm_controller.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable joint2cart[0m
+[ 57%] Built target joint2cart
+[ 64%] [32m[1mLinking CXX executable interface[0m
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/robot_control/src/polish_controller.cpp:[m[K In member function ‘[01m[Kvoid polish_control_interface::robot_control::joint_cmd_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/robot_control/src/polish_controller.cpp:215:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  215 | void robot_control::joint_cmd_callback([01;35m[Kconst sensor_msgs::msg::JointState::SharedPtr msg[m[K)
+      |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[ 64%] Built target interface
+[ 71%] [32m[1mLinking CXX executable pub_tool0_state[0m
+[ 71%] Built target pub_tool0_state
+[ 78%] [32m[1mLinking CXX executable gazebo_controller[0m
+[ 78%] Built target gazebo_controller
+[ 85%] [32m[1mLinking CXX executable gazebo_control[0m
+[ 85%] Built target gazebo_control
+[ 92%] [32m[1mLinking CXX executable sim_arm_controller[0m
+[ 92%] Built target sim_arm_controller
+[100%] [32m[1mLinking CXX executable polish_controller[0m
+[100%] Built target polish_controller
+-- Install configuration: ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_control
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_control" to ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/pub_tool0_state
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/pub_tool0_state" to ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_controller
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_controller" to ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/polish_controller
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/polish_controller" to ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/joint2cart
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/joint2cart" to ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/interface
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/interface" to ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller" to ""
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.dsv
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.xml

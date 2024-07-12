@@ -1,0 +1,18 @@
+{
+  "package_name": "tm_msgs",
+  "non_idl_tuples": [
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:msg/FeedbackState.msg",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:msg/SvrResponse.msg",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:msg/SctResponse.msg",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:msg/StaResponse.msg",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/ConnectTM.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/WriteItem.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/AskItem.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/SendScript.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/SetEvent.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/SetIO.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/SetPositions.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/SetVelocity.srv",
+    "/home/isci/ros2_ws/src/tmr_ros2/tm_msgs:srv/AskSta.srv"
+  ]
+}

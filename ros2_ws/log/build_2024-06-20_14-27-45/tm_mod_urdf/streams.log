@@ -1,0 +1,22 @@
+[5.547s] Invoking command in '/home/isci/ros2_ws/src/tmr_ros2/tm_mod_urdf': PYTHONPATH=/home/isci/ros2_ws/build/tm_mod_urdf/prefix_override:/home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tm_mod_urdf build --build-base /home/isci/ros2_ws/build/tm_mod_urdf/build install --record /home/isci/ros2_ws/build/tm_mod_urdf/install.log --single-version-externally-managed install_data
+[7.215s] running egg_info
+[7.217s] writing ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/PKG-INFO
+[7.218s] writing dependency_links to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/dependency_links.txt
+[7.218s] writing entry points to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/entry_points.txt
+[7.220s] writing requirements to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/requires.txt
+[7.220s] writing top-level names to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/top_level.txt
+[7.477s] reading manifest file '../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+[7.497s] writing manifest file '../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+[7.512s] running build
+[7.513s] running build_py
+[7.514s] running install
+[7.515s] running install_lib
+[7.518s] running install_data
+[7.518s] running install_egg_info
+[7.521s] removing '/home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf-1.0.0-py3.8.egg-info' (and everything under it)
+[7.521s] Copying ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info to /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf-1.0.0-py3.8.egg-info
+[7.522s] running install_scripts
+[7.625s] Installing modify_urdf script to /home/isci/ros2_ws/install/tm_mod_urdf/lib/tm_mod_urdf
+[7.626s] Installing modify_xacro script to /home/isci/ros2_ws/install/tm_mod_urdf/lib/tm_mod_urdf
+[7.632s] writing list of installed files to '/home/isci/ros2_ws/build/tm_mod_urdf/install.log'
+[7.726s] Invoked command in '/home/isci/ros2_ws/src/tmr_ros2/tm_mod_urdf' returned '0': PYTHONPATH=/home/isci/ros2_ws/build/tm_mod_urdf/prefix_override:/home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/tm_mod_urdf build --build-base /home/isci/ros2_ws/build/tm_mod_urdf/build install --record /home/isci/ros2_ws/build/tm_mod_urdf/install.log --single-version-externally-managed install_data

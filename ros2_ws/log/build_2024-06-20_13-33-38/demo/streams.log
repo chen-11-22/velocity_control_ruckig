@@ -1,0 +1,168 @@
+[0.023s] Invoking command in '/home/isci/ros2_ws/build/demo': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/demo -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/demo
+[0.072s] -- The C compiler identification is GNU 9.4.0
+[0.127s] -- The CXX compiler identification is GNU 9.4.0
+[0.132s] -- Check for working C compiler: /usr/bin/cc
+[0.204s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.205s] -- Detecting C compiler ABI info
+[0.274s] -- Detecting C compiler ABI info - done
+[0.292s] -- Detecting C compile features
+[0.293s] -- Detecting C compile features - done
+[0.295s] -- Check for working CXX compiler: /usr/bin/c++
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.383s] -- Detecting CXX compiler ABI info
+[0.471s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Detecting CXX compile features
+[0.488s] -- Detecting CXX compile features - done
+[0.490s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.516s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.516s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.729s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.782s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.790s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.883s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.923s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.085s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.087s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.088s] -- Looking for pthread.h
+[1.167s] -- Looking for pthread.h - found
+[1.167s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.246s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.246s] -- Looking for pthread_create in pthreads
+[1.309s] -- Looking for pthread_create in pthreads - not found
+[1.310s] -- Looking for pthread_create in pthread
+[1.386s] -- Looking for pthread_create in pthread - found
+[1.388s] -- Found Threads: TRUE  
+[1.580s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.732s] -- Found tm_msgs: 1.1.1 (/home/isci/ros2_ws/install/tm_msgs/share/tm_msgs/cmake)
+[1.778s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.881s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.883s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.884s] -- Configured cppcheck include dirs: /home/isci/ros2_ws/src/tmr_ros2/demo/include
+[1.884s] -- Configured cppcheck exclude dirs and/or files: 
+[1.885s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.886s] -- Configured cpplint exclude dirs and/or files: 
+[1.886s] -- Added test 'lint_cmake' to check CMake code style
+[1.888s] -- Added test 'uncrustify' to check C / C++ code style
+[1.888s] -- Configured uncrustify additional arguments: 
+[1.889s] -- Added test 'xmllint' to check XML markup files
+[1.892s] -- Configuring done
+[1.987s] -- Generating done
+[1.991s] -- Build files have been written to: /home/isci/ros2_ws/build/demo
+[2.001s] Invoked command in '/home/isci/ros2_ws/build/demo' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/demo -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/demo
+[2.003s] Invoking command in '/home/isci/ros2_ws/build/demo': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/isci/ros2_ws/build/demo -- -j12 -l12
+[2.053s] [35m[1mScanning dependencies of target demo_get_sct_response[0m
+[2.053s] [35m[1mScanning dependencies of target demo_get_svr_response[0m
+[2.053s] [35m[1mScanning dependencies of target demo_send_script[0m
+[2.053s] [35m[1mScanning dependencies of target demo_get_sta_response[0m
+[2.054s] [35m[1mScanning dependencies of target demo_set_positions[0m
+[2.054s] [35m[1mScanning dependencies of target demo_ask_sta[0m
+[2.055s] [35m[1mScanning dependencies of target demo_set_io[0m
+[2.057s] [35m[1mScanning dependencies of target demo_get_feedback[0m
+[2.063s] [35m[1mScanning dependencies of target demo_ask_item[0m
+[2.075s] [35m[1mScanning dependencies of target demo_connect_tm[0m
+[2.078s] [35m[1mScanning dependencies of target demo_get_torque_feedback[0m
+[2.088s] [35m[1mScanning dependencies of target demo_set_event[0m
+[2.146s] [  3%] [32mBuilding CXX object CMakeFiles/demo_get_sta_response.dir/get_status_demo_src/demo_get_sta_response.cpp.o[0m
+[2.150s] [  6%] [32mBuilding CXX object CMakeFiles/demo_get_svr_response.dir/get_status_demo_src/demo_get_svr_response.cpp.o[0m
+[2.153s] [  9%] [32mBuilding CXX object CMakeFiles/demo_get_sct_response.dir/get_status_demo_src/demo_get_sct_response.cpp.o[0m
+[2.153s] [ 12%] [32mBuilding CXX object CMakeFiles/demo_set_positions.dir/src/demo_set_positions.cpp.o[0m
+[2.163s] [ 15%] [32mBuilding CXX object CMakeFiles/demo_send_script.dir/src/demo_send_script.cpp.o[0m
+[2.178s] [ 18%] [32mBuilding CXX object CMakeFiles/demo_ask_sta.dir/src/demo_ask_sta.cpp.o[0m
+[2.188s] [ 21%] [32mBuilding CXX object CMakeFiles/demo_set_io.dir/src/demo_set_io.cpp.o[0m
+[2.193s] [ 25%] [32mBuilding CXX object CMakeFiles/demo_get_feedback.dir/get_status_demo_src/demo_get_feedback.cpp.o[0m
+[2.213s] [ 28%] [32mBuilding CXX object CMakeFiles/demo_get_torque_feedback.dir/get_status_demo_src/demo_get_torque_feedback.cpp.o[0m
+[2.213s] [ 31%] [32mBuilding CXX object CMakeFiles/demo_set_event.dir/src/demo_set_event.cpp.o[0m
+[2.219s] [ 37%] [32mBuilding CXX object CMakeFiles/demo_ask_item.dir/src/demo_ask_item.cpp.o[0m
+[2.221s] [ 37%] [32mBuilding CXX object CMakeFiles/demo_connect_tm.dir/src/demo_connect_tm.cpp.o[0m
+[16.026s] [ 40%] [32m[1mLinking CXX executable demo_set_positions[0m
+[17.118s] [ 40%] Built target demo_set_positions
+[17.347s] [35m[1mScanning dependencies of target demo_set_positions_handeye[0m
+[17.896s] [ 43%] [32mBuilding CXX object CMakeFiles/demo_set_positions_handeye.dir/src/demo_set_positions_handeye.cpp.o[0m
+[27.962s] [ 46%] [32m[1mLinking CXX executable demo_send_script[0m
+[29.485s] [ 46%] Built target demo_send_script
+[31.061s] [ 50%] [32m[1mLinking CXX executable demo_ask_item[0m
+[33.131s] [ 53%] [32m[1mLinking CXX executable demo_ask_sta[0m
+[34.193s] [ 56%] [32m[1mLinking CXX executable demo_set_io[0m
+[35.617s] [ 56%] Built target demo_ask_item
+[36.278s] [ 56%] Built target demo_set_io
+[37.307s] [ 56%] Built target demo_ask_sta
+[38.128s] [ 59%] [32m[1mLinking CXX executable demo_set_event[0m
+[38.461s] [ 62%] [32m[1mLinking CXX executable demo_connect_tm[0m
+[39.060s] [ 62%] Built target demo_set_event
+[39.151s] [ 62%] Built target demo_connect_tm
+[41.484s] [ 65%] [32m[1mLinking CXX executable demo_get_svr_response[0m
+[41.516s] [ 68%] [32m[1mLinking CXX executable demo_get_torque_feedback[0m
+[41.780s] [ 71%] [32m[1mLinking CXX executable demo_get_sct_response[0m
+[42.128s] [ 75%] [32m[1mLinking CXX executable demo_get_sta_response[0m
+[42.241s] [ 75%] Built target demo_get_torque_feedback
+[42.439s] [ 75%] Built target demo_get_svr_response
+[42.813s] [ 75%] Built target demo_get_sct_response
+[42.927s] [ 75%] Built target demo_get_sta_response
+[42.947s] [ 78%] [32m[1mLinking CXX executable demo_set_positions_handeye[0m
+[43.284s] [ 78%] Built target demo_set_positions_handeye
+[43.716s] [ 81%] [32m[1mLinking CXX executable demo_get_feedback[0m
+[44.386s] [ 81%] Built target demo_get_feedback
+[44.417s] [35m[1mScanning dependencies of target demo_write_item[0m
+[44.520s] [ 84%] [32mBuilding CXX object CMakeFiles/demo_write_item.dir/src/demo_write_item.cpp.o[0m
+[50.130s] [ 87%] [32m[1mLinking CXX executable demo_write_item[0m
+[50.384s] [ 87%] Built target demo_write_item
+[50.402s] [35m[1mScanning dependencies of target demo_leave_listen_node[0m
+[50.492s] [ 90%] [32mBuilding CXX object CMakeFiles/demo_leave_listen_node.dir/src/demo_leave_listen_node.cpp.o[0m
+[54.784s] [ 93%] [32m[1mLinking CXX executable demo_leave_listen_node[0m
+[55.019s] [ 93%] Built target demo_leave_listen_node
+[55.036s] [35m[1mScanning dependencies of target demo_set_velocity[0m
+[55.108s] [ 96%] [32mBuilding CXX object CMakeFiles/demo_set_velocity.dir/src/demo_set_velocity.cpp.o[0m
+[59.839s] [100%] [32m[1mLinking CXX executable demo_set_velocity[0m
+[60.104s] [100%] Built target demo_set_velocity
+[60.124s] Invoked command in '/home/isci/ros2_ws/build/demo' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/isci/ros2_ws/build/demo -- -j12 -l12
+[60.222s] Invoking command in '/home/isci/ros2_ws/build/demo': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/isci/ros2_ws/build/demo
+[60.235s] -- Install configuration: ""
+[60.235s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_send_script
+[60.236s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_send_script" to ""
+[60.237s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_ask_sta
+[60.238s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_ask_sta" to ""
+[60.238s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_connect_tm
+[60.239s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_connect_tm" to ""
+[60.239s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_event
+[60.241s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_set_event" to ""
+[60.241s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_io
+[60.242s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_set_io" to ""
+[60.242s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_positions
+[60.244s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_set_positions" to ""
+[60.244s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_positions_handeye
+[60.245s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_set_positions_handeye" to ""
+[60.246s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_velocity
+[60.247s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_set_velocity" to ""
+[60.247s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_write_item
+[60.249s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_write_item" to ""
+[60.249s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_ask_item
+[60.250s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_ask_item" to ""
+[60.250s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_feedback
+[60.254s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_get_feedback" to ""
+[60.254s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_torque_feedback
+[60.257s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_get_torque_feedback" to ""
+[60.258s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_sct_response
+[60.261s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_get_sct_response" to ""
+[60.261s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_sta_response
+[60.264s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_get_sta_response" to ""
+[60.264s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_svr_response
+[60.268s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_get_svr_response" to ""
+[60.268s] -- Installing: /home/isci/ros2_ws/install/demo/lib/demo/demo_leave_listen_node
+[60.269s] -- Set runtime path of "/home/isci/ros2_ws/install/demo/lib/demo/demo_leave_listen_node" to ""
+[60.269s] -- Installing: /home/isci/ros2_ws/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[60.270s] -- Installing: /home/isci/ros2_ws/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[60.270s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/environment/ament_prefix_path.sh
+[60.270s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/environment/ament_prefix_path.dsv
+[60.270s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/environment/path.sh
+[60.271s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/environment/path.dsv
+[60.271s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/local_setup.bash
+[60.271s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/local_setup.sh
+[60.272s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/local_setup.zsh
+[60.272s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/local_setup.dsv
+[60.272s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/package.dsv
+[60.272s] -- Installing: /home/isci/ros2_ws/install/demo/share/ament_index/resource_index/packages/demo
+[60.273s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/cmake/demoConfig.cmake
+[60.273s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/cmake/demoConfig-version.cmake
+[60.273s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/package.xml
+[60.277s] Invoked command in '/home/isci/ros2_ws/build/demo' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/isci/ros2_ws/build/demo

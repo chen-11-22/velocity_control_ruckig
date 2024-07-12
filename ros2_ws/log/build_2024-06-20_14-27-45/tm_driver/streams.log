@@ -1,0 +1,27 @@
+[0.143s] Invoking command in '/home/isci/ros2_ws/build/tm_driver': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_driver -- -j12 -l12
+[1.104s] [100%] Built target tm_driver
+[1.184s] Invoked command in '/home/isci/ros2_ws/build/tm_driver' returned '0': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_driver -- -j12 -l12
+[1.493s] Invoking command in '/home/isci/ros2_ws/build/tm_driver': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_driver
+[1.530s] -- Install configuration: ""
+[1.531s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/lib/tm_driver/tm_driver
+[1.535s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/launch
+[1.538s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/launch/tm5-900_bringup.launch.py
+[1.538s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/launch/tm_bringup.launch.py
+[1.540s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/rviz
+[1.541s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/rviz/bringup.rviz
+[1.542s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/ament_index/resource_index/package_run_dependencies/tm_driver
+[1.543s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/ament_index/resource_index/parent_prefix_path/tm_driver
+[1.544s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/environment/ament_prefix_path.sh
+[1.545s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/environment/ament_prefix_path.dsv
+[1.548s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/environment/path.sh
+[1.555s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/environment/path.dsv
+[1.557s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/local_setup.bash
+[1.559s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/local_setup.sh
+[1.560s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/local_setup.zsh
+[1.560s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/local_setup.dsv
+[1.561s] -- Installing: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/package.dsv
+[1.561s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/ament_index/resource_index/packages/tm_driver
+[1.562s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/cmake/tm_driverConfig.cmake
+[1.562s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/cmake/tm_driverConfig-version.cmake
+[1.563s] -- Up-to-date: /home/isci/ros2_ws/install/tm_driver/share/tm_driver/package.xml
+[1.564s] Invoked command in '/home/isci/ros2_ws/build/tm_driver' returned '0': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_driver

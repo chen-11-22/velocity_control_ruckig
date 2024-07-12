@@ -1,0 +1,4 @@
+source;share/tm_moveit_config_tm5-900/local_setup.bash
+source;share/tm_moveit_config_tm5-900/local_setup.dsv
+source;share/tm_moveit_config_tm5-900/local_setup.sh
+source;share/tm_moveit_config_tm5-900/local_setup.zsh

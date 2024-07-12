@@ -1,0 +1,35 @@
+[0.255s] Invoking command in '/home/isci/ros2_ws/build/tm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_kinematics -- -j12 -l12
+[2.871s] [ 60%] Built target TM_kinematics
+[2.879s] [100%] Built target tm_jacob
+[2.898s] Invoked command in '/home/isci/ros2_ws/build/tm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_kinematics -- -j12 -l12
+[3.036s] Invoking command in '/home/isci/ros2_ws/build/tm_kinematics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_kinematics
+[3.199s] -- Install configuration: ""
+[3.200s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/library_path.sh
+[3.201s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/library_path.dsv
+[3.201s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include
+[3.202s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics
+[3.203s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/tm_kin.hpp
+[3.204s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/.vscode
+[3.205s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/.vscode/settings.json
+[3.205s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/lib/libTM_kinematics.so
+[3.206s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/lib/tm_kinematics/tm_jacob
+[3.207s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/package_run_dependencies/tm_kinematics
+[3.208s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/parent_prefix_path/tm_kinematics
+[3.209s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/ament_prefix_path.sh
+[3.210s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/ament_prefix_path.dsv
+[3.210s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/path.sh
+[3.211s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/path.dsv
+[3.212s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.bash
+[3.213s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.sh
+[3.216s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.zsh
+[3.217s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.dsv
+[3.219s] -- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/package.dsv
+[3.223s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/packages/tm_kinematics
+[3.224s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/TM_kinematicsExport.cmake
+[3.227s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/TM_kinematicsExport-noconfig.cmake
+[3.228s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+[3.230s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.235s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/tm_kinematicsConfig.cmake
+[3.238s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/tm_kinematicsConfig-version.cmake
+[3.243s] -- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/package.xml
+[3.303s] Invoked command in '/home/isci/ros2_ws/build/tm_kinematics' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_kinematics

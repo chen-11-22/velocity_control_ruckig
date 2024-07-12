@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target sim_arm_controller[0m
+[ 50%] Built target polish_controller
+[ 75%] [32mBuilding CXX object CMakeFiles/sim_arm_controller.dir/src/sim_arm_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sim_arm_controller[0m
+[100%] Built target sim_arm_controller
+-- Install configuration: ""
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/lib/robot_control/polish_controller
+-- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller
+-- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller" to ""
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.xml

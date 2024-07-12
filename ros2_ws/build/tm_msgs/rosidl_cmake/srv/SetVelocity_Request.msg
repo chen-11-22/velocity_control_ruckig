@@ -1,0 +1,7 @@
+#motion_type :  VEL_J,VEL_T
+
+int8 VEL_J = 1
+int8 VEL_T = 2
+
+int8 motion_type
+float64[] velocity

@@ -1,0 +1,34 @@
+[2.687s] Invoking command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_moveit_cpp_demo -- -j12 -l12
+[2.945s] Invoked command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_moveit_cpp_demo -- -j12 -l12
+[3.273s] Invoking command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_moveit_cpp_demo
+[3.360s] -- Install configuration: ""
+[3.361s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch
+[3.362s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5x-900_run_moveit_cpp.launch.py
+[3.363s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5x-700_run_moveit_cpp.launch.py
+[3.364s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm12x_run_moveit_cpp.launch.py
+[3.365s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm14_run_moveit_cpp.launch.py
+[3.366s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm12_run_moveit_cpp.launch.py
+[3.368s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/run_moveit_cpp.rviz
+[3.369s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5-900_run_moveit_cpp.launch.py
+[3.377s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/run_moveit_cpp.launch.py
+[3.378s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm5-700_run_moveit_cpp.launch.py
+[3.379s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/launch/tm14x_run_moveit_cpp.launch.py
+[3.380s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config
+[3.380s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config/controllers.yaml
+[3.381s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/config/moveit_cpp.yaml
+[3.386s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/ament_index/resource_index/package_run_dependencies/tm_moveit_cpp_demo
+[3.391s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/ament_index/resource_index/parent_prefix_path/tm_moveit_cpp_demo
+[3.393s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/ament_prefix_path.sh
+[3.396s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/ament_prefix_path.dsv
+[3.403s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/path.sh
+[3.413s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/environment/path.dsv
+[3.416s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.bash
+[3.417s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.sh
+[3.418s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.zsh
+[3.418s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/local_setup.dsv
+[3.418s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/package.dsv
+[3.419s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/ament_index/resource_index/packages/tm_moveit_cpp_demo
+[3.420s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/cmake/tm_moveit_cpp_demoConfig.cmake
+[3.420s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/cmake/tm_moveit_cpp_demoConfig-version.cmake
+[3.422s] -- Up-to-date: /home/isci/ros2_ws/install/tm_moveit_cpp_demo/share/tm_moveit_cpp_demo/package.xml
+[3.464s] Invoked command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_moveit_cpp_demo

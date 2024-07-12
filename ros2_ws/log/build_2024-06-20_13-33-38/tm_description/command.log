@@ -1,0 +1,6 @@
+Invoking command in '/home/isci/ros2_ws/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_description -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_description
+Invoked command in '/home/isci/ros2_ws/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_description -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_description
+Invoking command in '/home/isci/ros2_ws/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_description -- -j12 -l12
+Invoked command in '/home/isci/ros2_ws/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_description -- -j12 -l12
+Invoking command in '/home/isci/ros2_ws/build/tm_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_description
+Invoked command in '/home/isci/ros2_ws/build/tm_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_description

@@ -1,0 +1,52 @@
+[0.028s] Invoking command in '/home/isci/ros2_ws/build/demo': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/demo -- -j12 -l12
+[0.104s] [  6%] Built target demo_set_positions
+[0.109s] [ 12%] Built target demo_get_svr_response
+[0.113s] [ 18%] Built target demo_get_torque_feedback
+[0.114s] [ 25%] Built target demo_get_sct_response
+[0.115s] [ 31%] Built target demo_ask_item
+[0.116s] [ 37%] Built target demo_send_script
+[0.116s] [ 43%] Built target demo_get_sta_response
+[0.125s] [ 53%] Built target demo_set_event
+[0.125s] [ 56%] Built target demo_ask_sta
+[0.125s] [ 62%] Built target demo_connect_tm
+[0.126s] [ 68%] Built target demo_get_feedback
+[0.135s] [ 75%] Built target demo_set_io
+[0.153s] [ 81%] Built target demo_write_item
+[0.155s] [ 87%] Built target demo_set_positions_handeye
+[0.155s] [ 93%] Built target demo_set_velocity
+[0.155s] [100%] Built target demo_leave_listen_node
+[0.166s] Invoked command in '/home/isci/ros2_ws/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/demo -- -j12 -l12
+[0.231s] Invoking command in '/home/isci/ros2_ws/build/demo': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/demo
+[0.243s] -- Install configuration: ""
+[0.243s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_send_script
+[0.244s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_ask_sta
+[0.244s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_connect_tm
+[0.244s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_event
+[0.245s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_io
+[0.245s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_positions
+[0.245s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_positions_handeye
+[0.246s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_set_velocity
+[0.246s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_write_item
+[0.246s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_ask_item
+[0.246s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_feedback
+[0.247s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_torque_feedback
+[0.247s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_sct_response
+[0.247s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_sta_response
+[0.248s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_get_svr_response
+[0.248s] -- Up-to-date: /home/isci/ros2_ws/install/demo/lib/demo/demo_leave_listen_node
+[0.248s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/ament_index/resource_index/package_run_dependencies/demo
+[0.249s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/ament_index/resource_index/parent_prefix_path/demo
+[0.249s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/environment/ament_prefix_path.sh
+[0.249s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/environment/ament_prefix_path.dsv
+[0.249s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/environment/path.sh
+[0.249s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/environment/path.dsv
+[0.250s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/local_setup.bash
+[0.250s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/local_setup.sh
+[0.250s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/local_setup.zsh
+[0.251s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/local_setup.dsv
+[0.252s] -- Installing: /home/isci/ros2_ws/install/demo/share/demo/package.dsv
+[0.252s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/ament_index/resource_index/packages/demo
+[0.252s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/cmake/demoConfig.cmake
+[0.252s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/cmake/demoConfig-version.cmake
+[0.252s] -- Up-to-date: /home/isci/ros2_ws/install/demo/share/demo/package.xml
+[0.253s] Invoked command in '/home/isci/ros2_ws/build/demo' returned '0': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/demo

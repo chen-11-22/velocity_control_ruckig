@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info
+writing ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/PKG-INFO
+writing dependency_links to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/dependency_links.txt
+writing entry points to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/entry_points.txt
+writing requirements to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/requires.txt
+writing top-level names to ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/top_level.txt
+writing manifest file '../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+reading manifest file '../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+writing manifest file '../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/isci/ros2_ws/build/tm_mod_urdf/build
+creating /home/isci/ros2_ws/build/tm_mod_urdf/build/lib
+creating /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf
+copying tm_mod_urdf/modify_xacro.py -> /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf
+copying tm_mod_urdf/__init__.py -> /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf
+copying tm_mod_urdf/_modify_urdf.py -> /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf
+copying tm_mod_urdf/modify_urdf.py -> /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf
+running install
+running install_lib
+creating /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+copying /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf/modify_xacro.py -> /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+copying /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf/__init__.py -> /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+copying /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf/_modify_urdf.py -> /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+copying /home/isci/ros2_ws/build/tm_mod_urdf/build/lib/tm_mod_urdf/modify_urdf.py -> /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf
+byte-compiling /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/modify_xacro.py to modify_xacro.cpython-38.pyc
+byte-compiling /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/_modify_urdf.py to _modify_urdf.cpython-38.pyc
+byte-compiling /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf/modify_urdf.py to modify_urdf.cpython-38.pyc
+running install_data
+creating /home/isci/ros2_ws/install/tm_mod_urdf/share/ament_index
+creating /home/isci/ros2_ws/install/tm_mod_urdf/share/ament_index/resource_index
+creating /home/isci/ros2_ws/install/tm_mod_urdf/share/ament_index/resource_index/packages
+copying resource/tm_mod_urdf -> /home/isci/ros2_ws/install/tm_mod_urdf/share/ament_index/resource_index/packages
+copying package.xml -> /home/isci/ros2_ws/install/tm_mod_urdf/share/tm_mod_urdf
+running install_egg_info
+Copying ../../../build/tm_mod_urdf/tm_mod_urdf.egg-info to /home/isci/ros2_ws/install/tm_mod_urdf/lib/python3.8/site-packages/tm_mod_urdf-1.0.0-py3.8.egg-info
+running install_scripts
+Installing modify_urdf script to /home/isci/ros2_ws/install/tm_mod_urdf/lib/tm_mod_urdf
+Installing modify_xacro script to /home/isci/ros2_ws/install/tm_mod_urdf/lib/tm_mod_urdf
+writing list of installed files to '/home/isci/ros2_ws/build/tm_mod_urdf/install.log'

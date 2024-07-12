@@ -1,0 +1,6 @@
+Invoking command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_moveit_cpp_demo -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_moveit_cpp_demo
+Invoked command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_moveit_cpp_demo -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_moveit_cpp_demo
+Invoking command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_moveit_cpp_demo -- -j12 -l12
+Invoked command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_moveit_cpp_demo -- -j12 -l12
+Invoking command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_moveit_cpp_demo
+Invoked command in '/home/isci/ros2_ws/build/tm_moveit_cpp_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_moveit_cpp_demo

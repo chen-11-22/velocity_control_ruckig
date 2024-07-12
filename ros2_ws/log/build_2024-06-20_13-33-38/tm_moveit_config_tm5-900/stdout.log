@@ -1,0 +1,69 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isci/ros2_ws/build/tm_moveit_config_tm5-900
+-- Install configuration: ""
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/ament_index/resource_index/package_run_dependencies/tm_moveit_config_tm5-900
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/ament_index/resource_index/parent_prefix_path/tm_moveit_config_tm5-900
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/ament_prefix_path.sh
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/ament_prefix_path.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/path.sh
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/path.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.bash
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.sh
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.zsh
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/package.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/ament_index/resource_index/packages/tm_moveit_config_tm5-900
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/cmake/tm_moveit_config_tm5-900Config.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/cmake/tm_moveit_config_tm5-900Config-version.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/package.xml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src/joint_points_act_service.py
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src/joint_points_topic.py
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src/__init__.py
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model-1_2.sdf
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model-1_4.sdf
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/selfObject.sdf
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model.sdf
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model-1_3.sdf
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model.config
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/worlds
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/worlds/arm_with_table.world
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/spawn.launch.py
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/load_world_into_gazebo.launch.py
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/gazebo.launch.py
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/tm_bringup.launch.py
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/kinematics.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/stomp_planning.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/tm5-900.srdf
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/ompl_planning.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/joint_limits.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/arm_controller_vel.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/sensors_3d.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/chomp_planning.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/arm_controller_pos.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/fake_controllers.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/ros_controllers.yaml
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/rviz
+-- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/rviz/tm5_gazebo.rviz

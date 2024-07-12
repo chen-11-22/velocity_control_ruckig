@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/isci/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/robot_control -- -j12 -l12
+[0.082s] [35m[1mScanning dependencies of target sim_arm_controller[0m
+[0.111s] [ 50%] Built target polish_controller
+[0.126s] [ 75%] [32mBuilding CXX object CMakeFiles/sim_arm_controller.dir/src/sim_arm_controller.cpp.o[0m
+[35.960s] [100%] [32m[1mLinking CXX executable sim_arm_controller[0m
+[36.334s] [100%] Built target sim_arm_controller
+[36.350s] Invoked command in '/home/isci/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/robot_control -- -j12 -l12
+[36.392s] Invoking command in '/home/isci/ros2_ws/build/robot_control': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/robot_control
+[36.408s] -- Install configuration: ""
+[36.408s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/lib/robot_control/polish_controller
+[36.409s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller
+[36.413s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller" to ""
+[36.413s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[36.413s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[36.413s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[36.414s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[36.414s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+[36.414s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+[36.414s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+[36.414s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+[36.415s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+[36.415s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+[36.415s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.dsv
+[36.415s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[36.415s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[36.416s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[36.416s] -- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.xml
+[36.418s] Invoked command in '/home/isci/ros2_ws/build/robot_control' returned '0': CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/home/isci/ros2_ws/install/ui_for_debug_and_demo:/home/isci/ros2_ws/install/tm_driver:/home/isci/ros2_ws/install/robot_control:/home/isci/ros2_ws/install/demo:/home/isci/ros2_ws/install/tm_moveit_cpp_demo:/home/isci/ros2_ws/install/tm_moveit_config_tm5-900:/home/isci/ros2_ws/install/tm_description:/home/isci/ros2_ws/install/custom_package:/home/isci/ros2_ws/install/techman_robot_msgs:/home/isci/ros2_ws/install/tm_mod_urdf:/home/isci/ros2_ws/install/tm_get_status:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/robot_control

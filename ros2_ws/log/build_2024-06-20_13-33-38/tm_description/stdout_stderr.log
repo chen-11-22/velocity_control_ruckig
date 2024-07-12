@@ -1,0 +1,134 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isci/ros2_ws/build/tm_description
+-- Install configuration: ""
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/ament_index/resource_index/package_run_dependencies/tm_description
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/ament_index/resource_index/parent_prefix_path/tm_description
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/environment/ament_prefix_path.sh
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/environment/ament_prefix_path.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/environment/path.sh
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/environment/path.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/local_setup.bash
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/local_setup.sh
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/local_setup.zsh
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/local_setup.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/package.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/ament_index/resource_index/packages/tm_description
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/cmake/tm_descriptionConfig.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/cmake/tm_descriptionConfig-version.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/package.xml
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/collision
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/collision/tm5-700_arm2_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/collision/tm5-700_arm1_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/visual
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm2.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm2.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm1.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm1.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm2.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-700/visual/tm5-700_arm1.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_100w_02_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_ee_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tm5-900_arm1_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tm5-900_arm2_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tm5-base_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_iox_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_400w_01_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/collision/tmr_100w_01_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_01.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-base.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_iox.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_02.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_ee.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-base.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm1.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_02.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_01.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_iox.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_400w_01.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm1.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm2.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_400w_01.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-base.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm2.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm1.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_ee.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_iox.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_400w_01.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_01.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_ee.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tmr_100w_02.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm5-900/visual/tm5-900_arm2.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/collision
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/collision/tmr_750w_01_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/collision/tm12-arm1_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/collision/tm12-arm2_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/collision/tm12-base_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-base.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm2.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm2.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tmr_750w_01.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm2.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-base.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm1.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm1.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-base.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tmr_750w_01.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tmr_750w_01.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm12/visual/tm12-arm1.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/collision
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/collision/tm14_arm2_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/collision/tm14_arm1_c.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/visual
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm1.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm2.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm2.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm2.stl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm1.mtl
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/meshes/tm14/visual/tm14_arm1.obj
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm5-900-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm12x-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm5x-700-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm12-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm5-900.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm5x-900-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm14-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm14x-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/urdf/tm5-700-nominal.urdf
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.internal_config.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.tm5-900-nominal-ros2.urdf.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.materials.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/tm5-900-ros2.urdf.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.gazebo.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.inertial.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/tm5-900.urdf.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.transmission.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.gazebo_config_control.xacro
+-- Installing: /home/isci/ros2_ws/install/tm_description/share/tm_description/xacro/macro.tm5-900-nominal.urdf.xacro

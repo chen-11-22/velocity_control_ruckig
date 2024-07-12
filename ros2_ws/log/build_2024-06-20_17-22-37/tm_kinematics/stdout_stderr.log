@@ -1,0 +1,31 @@
+[ 60%] Built target TM_kinematics
+[100%] Built target tm_jacob
+-- Install configuration: ""
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/library_path.sh
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/library_path.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/tm_kin.hpp
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/.vscode
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/.vscode/settings.json
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/lib/libTM_kinematics.so
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/lib/tm_kinematics/tm_jacob
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/package_run_dependencies/tm_kinematics
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/parent_prefix_path/tm_kinematics
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/ament_prefix_path.sh
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/path.sh
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/path.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.bash
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.sh
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.zsh
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/package.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/packages/tm_kinematics
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/TM_kinematicsExport.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/TM_kinematicsExport-noconfig.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/tm_kinematicsConfig.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/tm_kinematicsConfig-version.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/package.xml

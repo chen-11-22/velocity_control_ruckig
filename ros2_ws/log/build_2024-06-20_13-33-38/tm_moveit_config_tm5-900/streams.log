@@ -1,0 +1,75 @@
+[0.011s] Invoking command in '/home/isci/ros2_ws/build/tm_moveit_config_tm5-900': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_moveit_config_tm5-900 -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_moveit_config_tm5-900
+[0.063s] -- The C compiler identification is GNU 9.4.0
+[0.132s] -- The CXX compiler identification is GNU 9.4.0
+[0.139s] -- Check for working C compiler: /usr/bin/cc
+[0.204s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.205s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.281s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.361s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.441s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.461s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.461s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.686s] -- Configuring done
+[0.688s] -- Generating done
+[0.688s] -- Build files have been written to: /home/isci/ros2_ws/build/tm_moveit_config_tm5-900
+[0.692s] Invoked command in '/home/isci/ros2_ws/build/tm_moveit_config_tm5-900' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_moveit_config_tm5-900 -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_moveit_config_tm5-900
+[0.693s] Invoking command in '/home/isci/ros2_ws/build/tm_moveit_config_tm5-900': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_moveit_config_tm5-900 -- -j12 -l12
+[0.727s] Invoked command in '/home/isci/ros2_ws/build/tm_moveit_config_tm5-900' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_moveit_config_tm5-900 -- -j12 -l12
+[0.747s] Invoking command in '/home/isci/ros2_ws/build/tm_moveit_config_tm5-900': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_moveit_config_tm5-900
+[0.755s] -- Install configuration: ""
+[0.755s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/ament_index/resource_index/package_run_dependencies/tm_moveit_config_tm5-900
+[0.755s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/ament_index/resource_index/parent_prefix_path/tm_moveit_config_tm5-900
+[0.755s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/ament_prefix_path.sh
+[0.755s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/ament_prefix_path.dsv
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/path.sh
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/environment/path.dsv
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.bash
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.sh
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.zsh
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/local_setup.dsv
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/package.dsv
+[0.756s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/ament_index/resource_index/packages/tm_moveit_config_tm5-900
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/cmake/tm_moveit_config_tm5-900Config.cmake
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/cmake/tm_moveit_config_tm5-900Config-version.cmake
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/package.xml
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src/joint_points_act_service.py
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src/joint_points_topic.py
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/src/__init__.py
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models
+[0.757s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model-1_2.sdf
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model-1_4.sdf
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/selfObject.sdf
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model.sdf
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model-1_3.sdf
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/models/table/model.config
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/worlds
+[0.758s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/worlds/arm_with_table.world
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/spawn.launch.py
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/load_world_into_gazebo.launch.py
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/gazebo.launch.py
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/launch/tm_bringup.launch.py
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/kinematics.yaml
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/stomp_planning.yaml
+[0.759s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/tm5-900.srdf
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/ompl_planning.yaml
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/joint_limits.yaml
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/arm_controller_vel.yaml
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/sensors_3d.yaml
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/chomp_planning.yaml
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/arm_controller_pos.yaml
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/fake_controllers.yaml
+[0.760s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/config/ros_controllers.yaml
+[0.761s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/rviz
+[0.761s] -- Installing: /home/isci/ros2_ws/install/tm_moveit_config_tm5-900/share/tm_moveit_config_tm5-900/rviz/tm5_gazebo.rviz
+[0.764s] Invoked command in '/home/isci/ros2_ws/build/tm_moveit_config_tm5-900' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_description:/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_moveit_config_tm5-900

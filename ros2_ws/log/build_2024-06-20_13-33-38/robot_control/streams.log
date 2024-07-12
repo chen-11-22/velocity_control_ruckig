@@ -1,0 +1,111 @@
+[0.023s] Invoking command in '/home/isci/ros2_ws/build/robot_control': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:/home/isci/ros2_ws/install/tm_kinematics/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/robot_control -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/robot_control
+[0.077s] -- The C compiler identification is GNU 9.4.0
+[0.135s] -- The CXX compiler identification is GNU 9.4.0
+[0.140s] -- Check for working C compiler: /usr/bin/cc
+[0.209s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.210s] -- Detecting C compiler ABI info
+[0.282s] -- Detecting C compiler ABI info - done
+[0.294s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.297s] -- Check for working CXX compiler: /usr/bin/c++
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.385s] -- Detecting CXX compiler ABI info
+[0.476s] -- Detecting CXX compiler ABI info - done
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.492s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.519s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.519s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.738s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.791s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.799s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.898s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.935s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.100s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.101s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.102s] -- Looking for pthread.h
+[1.180s] -- Looking for pthread.h - found
+[1.180s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.260s] -- Looking for pthread_create in pthreads
+[1.323s] -- Looking for pthread_create in pthreads - not found
+[1.324s] -- Looking for pthread_create in pthread
+[1.398s] -- Looking for pthread_create in pthread - found
+[1.400s] -- Found Threads: TRUE  
+[1.604s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.648s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.742s] -- Found tm_msgs: 1.1.1 (/home/isci/ros2_ws/install/tm_msgs/share/tm_msgs/cmake)
+[1.784s] -- Found tm_kinematics: 0.1.0 (/home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake)
+[1.791s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.803s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.629s] -- Configuring done
+[2.716s] -- Generating done
+[2.721s] -- Build files have been written to: /home/isci/ros2_ws/build/robot_control
+[2.737s] Invoked command in '/home/isci/ros2_ws/build/robot_control' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:/home/isci/ros2_ws/install/tm_kinematics/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/robot_control -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/robot_control
+[2.742s] Invoking command in '/home/isci/ros2_ws/build/robot_control': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:/home/isci/ros2_ws/install/tm_kinematics/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/isci/ros2_ws/build/robot_control -- -j12 -l12
+[3.001s] [35m[1mScanning dependencies of target gazebo_control[0m
+[3.017s] [35m[1mScanning dependencies of target gazebo_controller[0m
+[3.036s] [35m[1mScanning dependencies of target pub_tool0_state[0m
+[3.072s] [35m[1mScanning dependencies of target interface[0m
+[3.075s] [35m[1mScanning dependencies of target joint2cart[0m
+[3.101s] [35m[1mScanning dependencies of target sim_arm_controller[0m
+[3.137s] [35m[1mScanning dependencies of target polish_controller[0m
+[3.248s] [  7%] [32mBuilding CXX object CMakeFiles/pub_tool0_state.dir/src/pub_tool0_state.cpp.o[0m
+[3.276s] [ 14%] [32mBuilding CXX object CMakeFiles/interface.dir/src/interface.cpp.o[0m
+[3.319s] [ 21%] [32mBuilding CXX object CMakeFiles/gazebo_control.dir/src/gazebo_control.cpp.o[0m
+[3.364s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_controller.dir/src/gazebo_controller.cpp.o[0m
+[3.364s] [ 35%] [32mBuilding CXX object CMakeFiles/joint2cart.dir/src/joint2cart.cpp.o[0m
+[3.393s] [ 42%] [32mBuilding CXX object CMakeFiles/polish_controller.dir/src/polish_controller.cpp.o[0m
+[3.495s] [ 50%] [32mBuilding CXX object CMakeFiles/sim_arm_controller.dir/src/sim_arm_controller.cpp.o[0m
+[40.618s] [ 57%] [32m[1mLinking CXX executable joint2cart[0m
+[41.128s] [ 57%] Built target joint2cart
+[43.262s] [ 64%] [32m[1mLinking CXX executable interface[0m
+[43.516s] [01m[K/home/isci/ros2_ws/src/tmr_ros2/robot_control/src/polish_controller.cpp:[m[K In member function ‘[01m[Kvoid polish_control_interface::robot_control::joint_cmd_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[43.516s] [01m[K/home/isci/ros2_ws/src/tmr_ros2/robot_control/src/polish_controller.cpp:215:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[43.516s]   215 | void robot_control::joint_cmd_callback([01;35m[Kconst sensor_msgs::msg::JointState::SharedPtr msg[m[K)
+[43.516s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[43.586s] [ 64%] Built target interface
+[44.540s] [ 71%] [32m[1mLinking CXX executable pub_tool0_state[0m
+[44.865s] [ 71%] Built target pub_tool0_state
+[93.435s] [ 78%] [32m[1mLinking CXX executable gazebo_controller[0m
+[93.693s] [ 78%] Built target gazebo_controller
+[102.414s] [ 85%] [32m[1mLinking CXX executable gazebo_control[0m
+[102.719s] [ 85%] Built target gazebo_control
+[106.051s] [ 92%] [32m[1mLinking CXX executable sim_arm_controller[0m
+[106.323s] [ 92%] Built target sim_arm_controller
+[109.210s] [100%] [32m[1mLinking CXX executable polish_controller[0m
+[109.495s] [100%] Built target polish_controller
+[109.506s] Invoked command in '/home/isci/ros2_ws/build/robot_control' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:/home/isci/ros2_ws/install/tm_kinematics/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/isci/ros2_ws/build/robot_control -- -j12 -l12
+[109.545s] Invoking command in '/home/isci/ros2_ws/build/robot_control': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:/home/isci/ros2_ws/install/tm_kinematics/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/isci/ros2_ws/build/robot_control
+[109.553s] -- Install configuration: ""
+[109.553s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_control
+[109.555s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_control" to ""
+[109.555s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/pub_tool0_state
+[109.556s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/pub_tool0_state" to ""
+[109.556s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_controller
+[109.558s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/gazebo_controller" to ""
+[109.558s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/polish_controller
+[109.560s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/polish_controller" to ""
+[109.560s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/joint2cart
+[109.561s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/joint2cart" to ""
+[109.561s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/interface
+[109.562s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/interface" to ""
+[109.562s] -- Installing: /home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller
+[109.564s] -- Set runtime path of "/home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller" to ""
+[109.564s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+[109.564s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+[109.564s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+[109.565s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.dsv
+[109.566s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+[109.566s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+[109.566s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+[109.566s] -- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.xml
+[109.568s] Invoked command in '/home/isci/ros2_ws/build/robot_control' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/home/isci/ros2_ws/install/tm_kinematics:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:/home/isci/ros2_ws/install/tm_kinematics/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/isci/ros2_ws/build/robot_control

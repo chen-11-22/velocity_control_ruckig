@@ -1,0 +1,3 @@
+#pathFile = /home/isci/ros2_ws/WayPoints_damin0302_pro.txt
+pathFile = /home/isci/ros2_ws/test_waypoint.txt
+exp_output = /home/isci/ros2_ws/

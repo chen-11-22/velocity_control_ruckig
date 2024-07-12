@@ -1,0 +1,90 @@
+[0.021s] Invoking command in '/home/isci/ros2_ws/build/ui_for_debug_and_demo': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/ui_for_debug_and_demo -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/ui_for_debug_and_demo
+[0.077s] -- The C compiler identification is GNU 9.4.0
+[0.133s] -- The CXX compiler identification is GNU 9.4.0
+[0.138s] -- Check for working C compiler: /usr/bin/cc
+[0.210s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.211s] -- Detecting C compiler ABI info
+[0.280s] -- Detecting C compiler ABI info - done
+[0.293s] -- Detecting C compile features
+[0.294s] -- Detecting C compile features - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++
+[0.386s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.387s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.490s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.518s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.518s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.743s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.796s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.803s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.895s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.931s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.026s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.098s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.099s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.100s] -- Looking for pthread.h
+[1.179s] -- Looking for pthread.h - found
+[1.179s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.259s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.259s] -- Looking for pthread_create in pthreads
+[1.322s] -- Looking for pthread_create in pthreads - not found
+[1.322s] -- Looking for pthread_create in pthread
+[1.398s] -- Looking for pthread_create in pthread - found
+[1.399s] -- Found Threads: TRUE  
+[1.589s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.686s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[1.689s] -- Found tm_msgs: 1.1.1 (/home/isci/ros2_ws/install/tm_msgs/share/tm_msgs/cmake)
+[1.752s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.832s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.833s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.834s] -- Configured cppcheck include dirs: 
+[1.834s] -- Configured cppcheck exclude dirs and/or files: 
+[1.835s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.835s] -- Configured cpplint exclude dirs and/or files: 
+[1.836s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.836s] -- Added test 'lint_cmake' to check CMake code style
+[1.837s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.838s] -- Added test 'uncrustify' to check C / C++ code style
+[1.838s] -- Configured uncrustify additional arguments: 
+[1.838s] -- Added test 'xmllint' to check XML markup files
+[1.843s] -- Configuring done
+[1.888s] -- Generating done
+[1.890s] -- Build files have been written to: /home/isci/ros2_ws/build/ui_for_debug_and_demo
+[1.899s] Invoked command in '/home/isci/ros2_ws/build/ui_for_debug_and_demo' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/ui_for_debug_and_demo -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/ui_for_debug_and_demo
+[1.901s] Invoking command in '/home/isci/ros2_ws/build/ui_for_debug_and_demo': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/isci/ros2_ws/build/ui_for_debug_and_demo -- -j12 -l12
+[1.949s] [35m[1mScanning dependencies of target robot_ui_autogen[0m
+[1.961s] [ 14%] [34m[1mAutomatic MOC and UIC for target robot_ui[0m
+[2.706s] [ 14%] Built target robot_ui_autogen
+[2.784s] [ 28%] [34m[1mGenerating ui_tm_ros_driver_windows.h[0m
+[2.862s] [35m[1mScanning dependencies of target robot_ui[0m
+[3.306s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/src/main.cpp.o[0m
+[3.314s] [ 57%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/robot_ui_autogen/mocs_compilation.cpp.o[0m
+[3.319s] [ 71%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/src/ros_page.cpp.o[0m
+[3.343s] [ 85%] [32mBuilding CXX object CMakeFiles/robot_ui.dir/src/tm_ros_driver_windows.cpp.o[0m
+[55.416s] [100%] [32m[1mLinking CXX executable robot_ui[0m
+[57.011s] [100%] Built target robot_ui
+[57.032s] Invoked command in '/home/isci/ros2_ws/build/ui_for_debug_and_demo' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/isci/ros2_ws/build/ui_for_debug_and_demo -- -j12 -l12
+[57.088s] Invoking command in '/home/isci/ros2_ws/build/ui_for_debug_and_demo': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/isci/ros2_ws/build/ui_for_debug_and_demo
+[57.101s] -- Install configuration: ""
+[57.102s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/lib/ui_for_debug_and_demo/robot_ui
+[57.109s] -- Set runtime path of "/home/isci/ros2_ws/install/ui_for_debug_and_demo/lib/ui_for_debug_and_demo/robot_ui" to ""
+[57.110s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/launch
+[57.110s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/launch/tm_gui.launch.py
+[57.110s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ament_index/resource_index/package_run_dependencies/ui_for_debug_and_demo
+[57.111s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ament_index/resource_index/parent_prefix_path/ui_for_debug_and_demo
+[57.111s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/ament_prefix_path.sh
+[57.111s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/ament_prefix_path.dsv
+[57.111s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/path.sh
+[57.112s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/environment/path.dsv
+[57.112s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.bash
+[57.112s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.sh
+[57.113s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.zsh
+[57.113s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/local_setup.dsv
+[57.113s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/package.dsv
+[57.113s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ament_index/resource_index/packages/ui_for_debug_and_demo
+[57.114s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/cmake/ui_for_debug_and_demoConfig.cmake
+[57.114s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/cmake/ui_for_debug_and_demoConfig-version.cmake
+[57.114s] -- Installing: /home/isci/ros2_ws/install/ui_for_debug_and_demo/share/ui_for_debug_and_demo/package.xml
+[57.119s] Invoked command in '/home/isci/ros2_ws/build/ui_for_debug_and_demo' returned '0': AMENT_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/isci/ros2_ws/install/tm_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/isci/ros2_ws/install/tm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/isci/ros2_ws/install/tm_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/isci/ros2_ws/build/ui_for_debug_and_demo

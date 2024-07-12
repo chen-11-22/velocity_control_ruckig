@@ -1,0 +1,183 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isci/ros2_ws/build/tm_kinematics
+[35m[1mScanning dependencies of target TM_kinematics[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/TM_kinematics.dir/src/tm_kin.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/TM_kinematics.dir/src/tm_jacob.cpp.o[0m
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_kin.cpp:42:[m[K [01;35m[Kwarning: [m[K"TM900_DH_PARAMS" redefined
+   42 | #define TM900_DH_PARAMS
+      | 
+[01m[K<command-line>:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_kin.cpp:[m[K In function ‘[01m[Kint tm_kinematics::{anonymous}::inverse_q234(const double*, const double*, const double*, double, double*, double*, const double*, bool)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_kin.cpp:171:34:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KT[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  171 |   int inverse_q234([01;35m[Kconst double* T[m[K, const double* L0J1J6, const double* R10, double qp, double* L1J1J5, double* q234, const double* q_ref, bool isRA) {
+      |                    [01;35m[K~~~~~~~~~~~~~~^[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[KEigen::Matrix<double, 6, 6> tm_jacobian::Forward_Jacobian_gripper(Eigen::Matrix<float, 6, 1>)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:98:30:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc6[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   98 |   double c1, c2, c3, c4, c5, [01;35m[Kc6[m[K, s1, s2, s3, s4, s5, s6;
+      |                              [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:98:54:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ks6[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   98 |   double c1, c2, c3, c4, c5, c6, s1, s2, s3, s4, s5, [01;35m[Ks6[m[K;
+      |                                                      [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[KEigen::Matrix<double, 6, 6> tm_jacobian::Forward_Jacobian_gripper(Eigen::Matrix<float, 6, 1>, double)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:118:30:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc6[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  118 |   double c1, c2, c3, c4, c5, [01;35m[Kc6[m[K, s1, s2, s3, s4, s5, s6;
+      |                              [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:118:54:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ks6[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  118 |   double c1, c2, c3, c4, c5, c6, s1, s2, s3, s4, s5, [01;35m[Ks6[m[K;
+      |                                                      [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[KEigen::Matrix<double, 6, 6> tm_jacobian::Forward_Jacobian_tool(Eigen::Matrix<double, 6, 1>, double)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:137:30:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kc6[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  137 |   double c1, c2, c3, c4, c5, [01;35m[Kc6[m[K, s1, s2, s3, s4, s5, s6;
+      |                              [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:137:54:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ks6[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  137 |   double c1, c2, c3, c4, c5, c6, s1, s2, s3, s4, s5, [01;35m[Ks6[m[K;
+      |                                                      [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kvoid tm_jacobian::Forward_Kinematics_3(const double*, double*)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:164:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  164 |   const double [01;35m[K_PI[m[K = M_PI;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:166:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_2_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  166 |   const double [01;35m[K_2_PI[m[K = 2.0 * M_PI;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kvoid tm_jacobian::Forward_Kinematics_3(const double*, double*, double)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:191:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  191 |   const double [01;35m[K_PI[m[K = M_PI;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:193:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_2_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  193 |   const double [01;35m[K_2_PI[m[K = 2.0 * M_PI;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kvoid tm_jacobian::Forward_Kinematics_4(const double*, double*)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:213:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  213 |   const double [01;35m[K_PI[m[K = M_PI;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:215:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_2_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  215 |   const double [01;35m[K_2_PI[m[K = 2.0 * M_PI;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:216:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc4[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  216 |   double c1, c2, c3, [01;35m[Kc4[m[K, c5, c6, s1, s2, s3;
+      |                      [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:216:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc5[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  216 |   double c1, c2, c3, c4, [01;35m[Kc5[m[K, c6, s1, s2, s3;
+      |                          [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:216:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc6[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  216 |   double c1, c2, c3, c4, c5, [01;35m[Kc6[m[K, s1, s2, s3;
+      |                              [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:217:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  217 |   double [01;35m[Kcp[m[K, sp;
+      |          [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:217:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksp[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  217 |   double cp, [01;35m[Ksp[m[K;
+      |              [01;35m[K^~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kvoid tm_jacobian::Forward_Kinematics_gripper(const double*, double*, double)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:242:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  242 |   const double [01;35m[K_PI[m[K = M_PI;
+      |                [01;35m[K^~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:244:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[K_2_PI[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  244 |   const double [01;35m[K_2_PI[m[K = 2.0 * M_PI;
+      |                [01;35m[K^~~~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kvoid tm_jacobian::printMatrix(Eigen::MatrixXf)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:275:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  275 |   short [01;35m[Kcount[m[K = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kvoid tm_jacobian::printMatrixd(Eigen::MatrixXd)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:291:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  291 |   short [01;35m[Kcount[m[K = 0;
+      |         [01;35m[K^~~~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kvoid tm_jacobian::printVector(std::vector<double, std::allocator<double> >)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:338:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+  338 |   for (int i = 0; [01;35m[Ki < vec.size()[m[K; ++i)
+      |                   [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:[m[K In function ‘[01m[Kbool tm_jacobian::GetQfromInverseKinematics(std::vector<double, std::allocator<double> >, double*)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/tm_jacob.cpp:474:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_sol[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  474 |      int [01;35m[Knum_sol[m[K =  tm_kinematics::inverse(T, q_inv);
+      |          [01;35m[K^~~~~~~[m[K
+[ 60%] [32m[1mLinking CXX shared library libTM_kinematics.so[0m
+[ 60%] Built target TM_kinematics
+[35m[1mScanning dependencies of target tm_jacob[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/tm_jacob.dir/src/main.cpp.o[0m
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/main.cpp:41:[m[K [01;35m[Kwarning: [m[K"A2" redefined
+   41 | #define A2 0.329
+      | 
+In file included from [01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/main.cpp:28[m[K:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/include/tm_kinematics/tm_kin.hpp:78:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   78 | #define A2 0.4290
+      | 
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/main.cpp:42:[m[K [01;35m[Kwarning: [m[K"A3" redefined
+   42 | #define A3 0.3115
+      | 
+In file included from [01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/main.cpp:28[m[K:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/include/tm_kinematics/tm_kin.hpp:79:[m[K [01;36m[Knote: [m[Kthis is the location of the previous definition
+   79 | #define A3 0.4115
+      | 
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/main.cpp:[m[K In function ‘[01m[Kint main(int, const char**)[m[K’:
+[01m[K/home/isci/ros2_ws/src/tmr_ros2/tm_kinematics/src/main.cpp:81:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   81 | int main([01;35m[Kint argc[m[K, char const *argv[])
+      |          [01;35m[K~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX executable tm_jacob[0m
+[100%] Built target tm_jacob
+-- Install configuration: ""
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/library_path.sh
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/library_path.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/include
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/tm_kin.hpp
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/.vscode
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/include/tm_kinematics/.vscode/settings.json
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/lib/libTM_kinematics.so
+-- Set runtime path of "/home/isci/ros2_ws/install/tm_kinematics/lib/libTM_kinematics.so" to ""
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/lib/tm_kinematics/tm_jacob
+-- Set runtime path of "/home/isci/ros2_ws/install/tm_kinematics/lib/tm_kinematics/tm_jacob" to ""
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/package_run_dependencies/tm_kinematics
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/parent_prefix_path/tm_kinematics
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/ament_prefix_path.sh
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/ament_prefix_path.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/path.sh
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/environment/path.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.bash
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.sh
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.zsh
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/local_setup.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/package.dsv
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/ament_index/resource_index/packages/tm_kinematics
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/TM_kinematicsExport.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/TM_kinematicsExport-noconfig.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/tm_kinematicsConfig.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake/tm_kinematicsConfig-version.cmake
+-- Installing: /home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/package.xml

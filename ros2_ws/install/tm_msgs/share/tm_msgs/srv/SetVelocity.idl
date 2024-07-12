@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from tm_msgs/srv/SetVelocity.srv
+// generated code does not contain a copyright notice
+
+
+module tm_msgs {
+  module srv {
+    module SetVelocity_Request_Constants {
+      const int8 VEL_J = 1;
+      const int8 VEL_T = 2;
+    };
+    @verbatim (language="comment", text=
+      "motion_type :  VEL_J,VEL_T")
+    struct SetVelocity_Request {
+      int8 motion_type;
+
+      sequence<double> velocity;
+    };
+    @verbatim (language="comment", text=
+      " ok :  set motion status")
+    struct SetVelocity_Response {
+      boolean ok;
+    };
+  };
+};

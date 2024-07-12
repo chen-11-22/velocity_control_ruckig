@@ -1,0 +1,6 @@
+Invoking command in '/home/isci/ros2_ws/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_msgs -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_msgs
+Invoked command in '/home/isci/ros2_ws/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/isci/ros2_ws/src/tmr_ros2/tm_msgs -DCMAKE_INSTALL_PREFIX=/home/isci/ros2_ws/install/tm_msgs
+Invoking command in '/home/isci/ros2_ws/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_msgs -- -j12 -l12
+Invoked command in '/home/isci/ros2_ws/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/isci/ros2_ws/build/tm_msgs -- -j12 -l12
+Invoking command in '/home/isci/ros2_ws/build/tm_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_msgs
+Invoked command in '/home/isci/ros2_ws/build/tm_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/isci/ros2_ws/build/tm_msgs

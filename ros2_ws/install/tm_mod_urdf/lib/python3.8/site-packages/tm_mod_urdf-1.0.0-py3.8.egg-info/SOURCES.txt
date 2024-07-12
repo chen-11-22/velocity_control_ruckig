@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/PKG-INFO
+../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/SOURCES.txt
+../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/dependency_links.txt
+../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/entry_points.txt
+../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/requires.txt
+../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/top_level.txt
+../../../build/tm_mod_urdf/tm_mod_urdf.egg-info/zip-safe
+resource/tm_mod_urdf
+tm_mod_urdf/__init__.py
+tm_mod_urdf/_modify_urdf.py
+tm_mod_urdf/modify_urdf.py
+tm_mod_urdf/modify_xacro.py

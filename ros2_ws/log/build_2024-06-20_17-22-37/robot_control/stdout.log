@@ -1,0 +1,37 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found tm_msgs: 1.1.1 (/home/isci/ros2_ws/install/tm_msgs/share/tm_msgs/cmake)
+-- Found tm_kinematics: 0.1.0 (/home/isci/ros2_ws/install/tm_kinematics/share/tm_kinematics/cmake)
+-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/isci/ros2_ws/build/robot_control
+[100%] Built target sim_arm_controller
+[100%] Built target polish_controller
+-- Install configuration: ""
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/lib/robot_control/polish_controller
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/lib/robot_control/sim_arm_controller
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/package_run_dependencies/robot_control
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/parent_prefix_path/robot_control
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.sh
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.sh
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/environment/path.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.bash
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.sh
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.zsh
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/local_setup.dsv
+-- Installing: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.dsv
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/ament_index/resource_index/packages/robot_control
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/cmake/robot_controlConfig-version.cmake
+-- Up-to-date: /home/isci/ros2_ws/install/robot_control/share/robot_control/package.xml
